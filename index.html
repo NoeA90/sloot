@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BET300 - Bono de Bienvenida</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empezá desde acá</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ffcc;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .mensaje {
+      animation: parpadeo 1s infinite;
+    }
+    @keyframes parpadeo {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+  </style>
+  <script>
+    // Redirección automática después de 2 segundos
+    setTimeout(function() {
+      window.location.href = "https://pch.bet300vip.com/";
+    }, 2000);
+  </script>
 </head>
 <body>
-    <div class="container">
-        <img src="background.png" alt="Promoción BET300">
-        <a class="cta-button" href="https://wa.me/5491126980720" target="_blank">RECLAMAR</a>
-    </div>
+  <div class="mensaje">📲 Empezá desde acá…</div>
 </body>
 </html>
+
